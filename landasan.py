@@ -96,6 +96,11 @@ def Pertemuan13():
     tulisanHTML='<iframe src="https://drive.google.com/file/d/10nQR4IrdRL_S86ej-m1USrD2f8B9GgiW/preview" width=100% height=1000px></iframe>'
     tampil = tulisan(tulisanHTML,1000)
     tampil.tampilkan()
+    tulisanHTML='<iframe src="https://martin-bernard26.github.io/landasanPendidikan/UASLandasan.html" width=100% height=1000px></iframe>'
+    tampil = tulisan(tulisanHTML,1000)
+    tampil.tampilkan()
+
+
 #================================
 
 if st.session_state['kontrol']['kover']:
